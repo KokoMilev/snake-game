@@ -27,4 +27,12 @@ export class Board {
     const [x, y] = key.split(',').map(Number);
     return { x, y };
   }
+
+  public getWidth(): number {
+    return this.width;
+  }
+
+  public getHeight(): number {
+    return this.height;
+  }
 }
